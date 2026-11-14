@@ -1,0 +1,91 @@
+{
+  "id": "blaze",
+  "name": "Shadow Blaze",
+  "title": "Cyber Ninja",
+  "bio": "An agile rogue operative wielding plasma-infused nanotech blades and lightning-fast phantom footwork.",
+  "health": 1450,
+  "speed": 7.5,
+  "jumpForce": 12.2,
+  "weight": 0.85,
+  "scale": 0.95,
+  "color": "#ec4899",
+  "accentColor": "#9d174d",
+  "modelPath": "model.glb",
+  "hitboxSizes": {
+    "bodyWidth": 0.7,
+    "bodyHeight": 1.7,
+    "headRadius": 0.25
+  },
+  "moves": {
+    "punch": {
+      "type": "punch",
+      "name": "Viper Palm",
+      "damage": 28,
+      "meterGain": 15,
+      "startupFrames": 4,
+      "activeFrames": 4,
+      "recoveryFrames": 6,
+      "range": 1.35,
+      "knockback": 1.8,
+      "hitstun": 12,
+      "caption": "SLASH!",
+      "animationClip": "punch",
+      "audioPath": "audio/punch.mp3",
+      "unblockable": false
+    },
+    "kick": {
+      "type": "kick",
+      "name": "Phantom Crescent",
+      "damage": 52,
+      "meterGain": 20,
+      "startupFrames": 7,
+      "activeFrames": 5,
+      "recoveryFrames": 11,
+      "range": 2.0,
+      "knockback": 3.8,
+      "hitstun": 20,
+      "caption": "GALE FORCE!",
+      "animationClip": "kick",
+      "audioPath": "audio/kick.mp3",
+      "unblockable": false
+    },
+    "grab": {
+      "type": "grab",
+      "name": "Shadow Izuna Drop",
+      "damage": 80,
+      "meterGain": 24,
+      "startupFrames": 6,
+      "activeFrames": 4,
+      "recoveryFrames": 22,
+      "range": 1.1,
+      "knockback": 5.0,
+      "hitstun": 32,
+      "caption": "NINJA SUBMISSION!",
+      "animationClip": "grab",
+      "audioPath": "audio/grab.mp3",
+      "unblockable": true
+    },
+    "super": {
+      "type": "super",
+      "name": "Thousand Shadow Lotus",
+      "damage": 190,
+      "meterGain": 0,
+      "startupFrames": 9,
+      "activeFrames": 16,
+      "recoveryFrames": 24,
+      "range": 2.5,
+      "knockback": 7.8,
+      "hitstun": 46,
+      "caption": "SHADOW EXECUTION!",
+      "animationClip": "super",
+      "audioPath": "audio/super.mp3",
+      "unblockable": false
+    }
+  },
+  "captions": {
+    "win": "TOO SLOW. YOU CANNOT STRIKE WHAT SHADOW COVERS.",
+    "lose": "MY FOCUS WAVERED... I MUST RETURN TO THE SHADOWS.",
+    "counter": "FATAL COUNTER!",
+    "blocked": "DEFLECTED!"
+  }
+}

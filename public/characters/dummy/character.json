@@ -1,0 +1,91 @@
+{
+  "id": "dummy",
+  "name": "Dummy",
+  "title": "Combat Prototype MK-I",
+  "bio": "A sentient training android built with reinforced carbon composites and calibrated for adaptable street combat.",
+  "health": 1600,
+  "speed": 6.0,
+  "jumpForce": 11.0,
+  "weight": 1.0,
+  "scale": 1.0,
+  "color": "#38bdf8",
+  "accentColor": "#0369a1",
+  "modelPath": "model.glb",
+  "hitboxSizes": {
+    "bodyWidth": 0.8,
+    "bodyHeight": 1.8,
+    "headRadius": 0.28
+  },
+  "moves": {
+    "punch": {
+      "type": "punch",
+      "name": "Linear Jab",
+      "damage": 32,
+      "meterGain": 12,
+      "startupFrames": 5,
+      "activeFrames": 4,
+      "recoveryFrames": 8,
+      "range": 1.4,
+      "knockback": 2.2,
+      "hitstun": 14,
+      "caption": "CRACK!",
+      "animationClip": "punch",
+      "audioPath": "audio/punch.mp3",
+      "unblockable": false
+    },
+    "kick": {
+      "type": "kick",
+      "name": "Impact Roundhouse",
+      "damage": 58,
+      "meterGain": 18,
+      "startupFrames": 9,
+      "activeFrames": 6,
+      "recoveryFrames": 14,
+      "range": 1.85,
+      "knockback": 4.5,
+      "hitstun": 22,
+      "caption": "WHAM!",
+      "animationClip": "kick",
+      "audioPath": "audio/kick.mp3",
+      "unblockable": false
+    },
+    "grab": {
+      "type": "grab",
+      "name": "Seismic Throw",
+      "damage": 88,
+      "meterGain": 25,
+      "startupFrames": 8,
+      "activeFrames": 5,
+      "recoveryFrames": 26,
+      "range": 1.15,
+      "knockback": 6.0,
+      "hitstun": 35,
+      "caption": "SLAM!",
+      "animationClip": "grab",
+      "audioPath": "audio/grab.mp3",
+      "unblockable": true
+    },
+    "super": {
+      "type": "super",
+      "name": "Overdrive Protocol",
+      "damage": 200,
+      "meterGain": 0,
+      "startupFrames": 12,
+      "activeFrames": 14,
+      "recoveryFrames": 28,
+      "range": 2.4,
+      "knockback": 8.5,
+      "hitstun": 45,
+      "caption": "METEOR BURST!",
+      "animationClip": "super",
+      "audioPath": "audio/super.mp3",
+      "unblockable": false
+    }
+  },
+  "captions": {
+    "win": "SYSTEM EFFICIENCY: 100%. OBJECTIVE SECURED.",
+    "lose": "ERROR: SYSTEM INTEGRITY COMPROMISED. REBOOTING...",
+    "counter": "COUNTER HIT!",
+    "blocked": "GUARDED!"
+  }
+}

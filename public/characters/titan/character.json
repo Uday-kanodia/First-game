@@ -1,0 +1,91 @@
+{
+  "id": "titan",
+  "name": "Titan-09",
+  "title": "Heavy Armor Brawler",
+  "bio": "A heavy siege automaton retrofitted for underground prize fighting with hydraulic fists and titanium plating.",
+  "health": 1950,
+  "speed": 4.8,
+  "jumpForce": 10.0,
+  "weight": 1.4,
+  "scale": 1.15,
+  "color": "#f97316",
+  "accentColor": "#9a3412",
+  "modelPath": "model.glb",
+  "hitboxSizes": {
+    "bodyWidth": 1.1,
+    "bodyHeight": 2.0,
+    "headRadius": 0.35
+  },
+  "moves": {
+    "punch": {
+      "type": "punch",
+      "name": "Piston Strike",
+      "damage": 42,
+      "meterGain": 14,
+      "startupFrames": 7,
+      "activeFrames": 5,
+      "recoveryFrames": 10,
+      "range": 1.5,
+      "knockback": 3.0,
+      "hitstun": 18,
+      "caption": "BOOM!",
+      "animationClip": "punch",
+      "audioPath": "audio/punch.mp3",
+      "unblockable": false
+    },
+    "kick": {
+      "type": "kick",
+      "name": "Crush Stomp",
+      "damage": 70,
+      "meterGain": 20,
+      "startupFrames": 11,
+      "activeFrames": 7,
+      "recoveryFrames": 17,
+      "range": 1.7,
+      "knockback": 5.5,
+      "hitstun": 25,
+      "caption": "CRUSH!",
+      "animationClip": "kick",
+      "audioPath": "audio/kick.mp3",
+      "unblockable": false
+    },
+    "grab": {
+      "type": "grab",
+      "name": "Hydraulic Pile-Driver",
+      "damage": 110,
+      "meterGain": 30,
+      "startupFrames": 9,
+      "activeFrames": 5,
+      "recoveryFrames": 30,
+      "range": 1.25,
+      "knockback": 7.5,
+      "hitstun": 40,
+      "caption": "OBLITERATE!",
+      "animationClip": "grab",
+      "audioPath": "audio/grab.mp3",
+      "unblockable": true
+    },
+    "super": {
+      "type": "super",
+      "name": "Gigaton Core Eruption",
+      "damage": 235,
+      "meterGain": 0,
+      "startupFrames": 15,
+      "activeFrames": 16,
+      "recoveryFrames": 32,
+      "range": 2.6,
+      "knockback": 10.0,
+      "hitstun": 50,
+      "caption": "TITAN DISASTER!",
+      "animationClip": "super",
+      "audioPath": "audio/super.mp3",
+      "unblockable": false
+    }
+  },
+  "captions": {
+    "win": "HEAVY ARMOR UNDEFEATED. CRUSHED UNDER REINFORCED STEEL.",
+    "lose": "REACTOR OVERHEAT DETECTED. CORE EMERGENCY SHUTDOWN.",
+    "counter": "PUNISHED!",
+    "blocked": "IRON DEFENSE!"
+  }
+}

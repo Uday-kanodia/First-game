@@ -1,0 +1,40 @@
+/* Clash of Titans 3D - Global Styles & Fighting Game Animations */
+
+@keyframes comic-bounce {
+  0% {
+    transform: translate(-50%, -50%) scale(0.4) rotate(-8deg);
+    opacity: 0;
+  }
+  40% {
+    transform: translate(-50%, -50%) scale(1.25) rotate(3deg);
+    opacity: 1;
+  }
+  70% {
+    transform: translate(-50%, -50%) scale(0.95) rotate(-2deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-50%, -50%) scale(1.0) rotate(0deg);
+    opacity: 1;
+  }
+}
+
+.animate-comic-pop {
+  animation: comic-bounce 0.35s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "thala",
+    "name": "Thala",
+    "title": "Veteran Wicketkeeper-Batsman",
+    "archetype": "Legendary Finisher",
+    "color": "#2563eb",
+    "accentColor": "#f59e0b"
+  },
+  {
+    "id": "dummy",
+    "name": "Dummy",
+    "title": "Combat Prototype",
+    "archetype": "All-Rounder",
+    "color": "#38bdf8",
+    "accentColor": "#0284c7"
+  },
+  {
+    "id": "titan",
+    "name": "Titan-09",
+    "title": "Heavy Armor Brawler",
+    "archetype": "Heavy Grappler",
+    "color": "#f97316",
+    "accentColor": "#c2410c"
+  },
+  {
+    "id": "blaze",
+    "name": "Shadow Blaze",
+    "title": "Cyber Ninja",
+    "archetype": "Speed Striker",
+    "color": "#ec4899",
+    "accentColor": "#be185d"
+  }
+]

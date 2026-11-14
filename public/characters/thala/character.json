@@ -1,0 +1,109 @@
+{
+  "id": "thala",
+  "name": "Thala",
+  "title": "Veteran Wicketkeeper-Batsman",
+  "bio": "Legendary world-champion captain and iconic wicketkeeper-batsman. Armed with an English willow bat, lightning stumpings, acrobatic fitness leaps, and the devastating Helicopter Shot.",
+  "health": 1750,
+  "speed": 6.8,
+  "jumpForce": 11.8,
+  "weight": 1.05,
+  "scale": 1.0,
+  "color": "#2563eb",
+  "accentColor": "#f59e0b",
+  "modelPath": "model.glb",
+  "hitboxSizes": {
+    "bodyWidth": 0.82,
+    "bodyHeight": 1.85,
+    "headRadius": 0.28
+  },
+  "moves": {
+    "punch": {
+      "type": "punch",
+      "name": "Greatest Finisher",
+      "damage": 38,
+      "meterGain": 14,
+      "startupFrames": 6,
+      "activeFrames": 5,
+      "recoveryFrames": 8,
+      "range": 1.6,
+      "knockback": 2.8,
+      "hitstun": 15,
+      "caption": "GREATEST FINISHER!",
+      "animationClip": "punch",
+      "audioPath": "audio/punch.mp3",
+      "videoPath": "/characters/thala/video/punch.mp4",
+      "unblockable": false
+    },
+    "kick": {
+      "type": "kick",
+      "name": "Fitness King",
+      "damage": 64,
+      "meterGain": 18,
+      "startupFrames": 8,
+      "activeFrames": 6,
+      "recoveryFrames": 13,
+      "range": 2.1,
+      "knockback": 4.8,
+      "hitstun": 22,
+      "caption": "FITNESS KING!",
+      "animationClip": "kick",
+      "audioPath": "audio/kick.mp3",
+      "videoPath": "/characters/thala/video/kick.mp4",
+      "unblockable": false
+    },
+    "grab": {
+      "type": "grab",
+      "name": "Lightning Speed",
+      "damage": 95,
+      "meterGain": 25,
+      "startupFrames": 7,
+      "activeFrames": 5,
+      "recoveryFrames": 25,
+      "range": 1.25,
+      "knockback": 6.5,
+      "hitstun": 35,
+      "caption": "LIGHTNING SPEED!",
+      "animationClip": "grab",
+      "audioPath": "audio/grab.mp3",
+      "videoPath": "/characters/thala/video/grab.mp4",
+      "unblockable": true
+    },
+    "super": {
+      "type": "super",
+      "name": "Helicopter Shot",
+      "damage": 225,
+      "meterGain": 0,
+      "startupFrames": 10,
+      "activeFrames": 15,
+      "recoveryFrames": 28,
+      "range": 2.7,
+      "knockback": 9.5,
+      "hitstun": 48,
+      "caption": "HELICOPTER SHOT!",
+      "animationClip": "super",
+      "audioPath": "audio/super.mp3",
+      "videoPath": "/characters/thala/video/super.mp4",
+      "unblockable": false
+    }
+  },
+  "audio": {
+    "punch": "audio/punch.mp3",
+    "kick": "audio/kick.mp3",
+    "grab": "audio/grab.mp3",
+    "super": "audio/super.mp3",
+    "win": "audio/win.mp3",
+    "lose": "audio/lose.mp3"
+  },
+  "video": {
+    "punch": "/characters/thala/video/punch.mp4",
+    "kick": "/characters/thala/video/kick.mp4",
+    "grab": "/characters/thala/video/grab.mp4",
+    "super": "/characters/thala/video/super.mp4"
+  },
+  "captions": {
+    "win": "Bole jo koyal baagon mein, yaad piya ki aane lagi! Thala for a reason!",
+    "lose": "Maha Mahim Singh aa chuke aur jaa chuke",
+    "counter": "FINISHER COUNTER!",
+    "blocked": "STUMP GUARD!"
+  }
+}
